@@ -29,6 +29,16 @@ class Solution {
 
         // Bob wins if he exactly balance the differnce
         return leftSum - rightSum != 9 * diffQ/2;
+
+        /*
+                Algorithm:
+                1. Split the string into left and right halves.
+                2. Calculate the sum of known digits and count '?' in both halves.
+                3. If the total number of '?' is odd, Alice gets the last move, so return true.
+                4. Otherwise, Bob can win if:
+                  leftSum - rightSum == 9 * (rightQ - leftQ) / 2
+                5. If the condition is true, Bob wins; otherwise Alice wins.
+        */
         
     }
 }
