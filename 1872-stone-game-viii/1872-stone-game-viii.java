@@ -18,3 +18,21 @@ class Solution {
         return best;
     }
 }
+
+/*
+Algorithm:
+1. Calculate prefix sums, where prefix[i] = sum of stones[0...i].
+2. Start with the total sum as the initial best score difference
+   (Alice can take all stones in the first move).
+3. Traverse the prefix sums from right to left.
+4. For each prefix:
+      best = max(best, prefix[i] - best)
+   Here, prefix[i] is the current player's score and best is
+   the opponent's best possible score difference.
+5. Return best.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+ 
