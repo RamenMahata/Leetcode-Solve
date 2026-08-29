@@ -49,3 +49,91 @@ class Solution {
         return nums;
     }
 }
+/*
+PATTERN:
+Allowed swaps + transitive relationships
+        -> Connected Components
+        -> Sort values within each component
+
+ALGORITHM:
+1. Store each element as (value, originalIndex).
+2. Sort these pairs by value.
+3. Scan sorted values.
+4. Consecutive values belong to the same component
+   if their difference <= limit.
+5. A gap > limit starts a new component.
+6. For each component:
+      - collect original indices
+      - sort the indices
+      - values are already sorted
+      - assign smallest values to smallest indices
+7. Return the modified array.
+
+KEY INSIGHT:
+If a-b <= limit and b-c <= limit, then a and c
+can interact indirectly through b. Therefore, direct
+swappability is not enough; we need connected components.
+
+WHY SORTING WORKS:
+After sorting values, a component is exactly a maximal
+contiguous group where every adjacent difference <= limit.
+
+LEXICOGRAPHIC MINIMIZATION:
+Since values within a component can be rearranged freely,
+put the smallest value at the smallest index, the second
+smallest at the second smallest index, etc.
+
+BRUTE FORCE:
+Build graph by checking every pair.
+Time:  O(n^2)
+Space: O(n^2)
+
+OPTIMAL:
+Sort (value, index) pairs and find components using
+adjacent differences.
+Time:  O(n log n)
+Space: O(n)
+
+PREREQUISITES:
+- Sorting
+- Comparator
+- (value, index) pairs
+- Connected components
+- Greedy / lexicographical ordering
+- Basic graph / DSU understanding
+
+COMMON MISTAKES:
+- Checking only direct swaps
+- Grouping by original index
+- Checking every pair
+- Sorting the entire array
+- Losing original indices
+
+MAIN LEARNING:
+Don't simulate swaps when you can characterize all
+reachable states using connected components.
+
+
+"Swap if difference <= limit"
+             ↓
+"Can use intermediate elements?"
+             ↓
+YES
+             ↓
+"So this is connectivity."
+             ↓
+"Need connected components."
+             ↓
+"Condition depends on value difference."
+             ↓
+"Sort by value."
+             ↓
+"Adjacent gap > limit separates components."
+             ↓
+"Within each component, arbitrary rearrangement."
+             ↓
+"To minimize lexicographically:
+ smallest value → smallest index."
+             ↓
+O(n log n)
+*/
