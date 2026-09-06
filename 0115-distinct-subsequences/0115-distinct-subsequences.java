@@ -6,52 +6,55 @@ class Solution {
         int m = t.length();
 
         /*
-         * dp[i][j] =
+         * dp[j] =
          * number of ways to form t[j...]
-         * using characters from s[i...]
+         * using the current suffix of s.
+         *
+         * dp[m] = 1 because an empty target
+         * can always be formed in exactly 1 way:
+         * choose nothing.
          */
+        int[] dp = new int[m + 1];
 
-        int[][] dp = new int[n + 1][m + 1];
+        dp[m] = 1;
 
         /*
-         * If t is completely formed,
-         * there is exactly 1 valid way to finish.
-         *
-         * Therefore:
-         * dp[i][m] = 1
-         */
-        for (int i = 0; i <= n; i++) {
-            dp[i][m] = 1;
-        }
-
-        /*
-         * Fill the table from bottom to top.
-         *
-         * We need dp[i + 1][j] and
-         * dp[i + 1][j + 1].
+         * Process s from right to left.
          */
         for (int i = n - 1; i >= 0; i--) {
 
-            for (int j = m - 1; j >= 0; j--) {
+            /*
+             * IMPORTANT:
+             *
+             * We go LEFT -> RIGHT.
+             *
+             * dp[j]     = old dp[i + 1][j]
+             * dp[j + 1] = old dp[i + 1][j + 1]
+             *
+             * We need dp[j + 1] to remain unchanged.
+             */
+            for (int j = 0; j < m; j++) {
 
                 if (s.charAt(i) == t.charAt(j)) {
 
-                    // Two choices:
-                    // 1. Take s[i]
-                    // 2. Skip s[i]
-                    dp[i][j] =
-                            dp[i + 1][j + 1]
-                            + dp[i + 1][j];
-
-                } else {
-
-                    // Characters don't match.
-                    // We must skip s[i].
-                    dp[i][j] = dp[i + 1][j];
+                    /*
+                     * Two choices:
+                     *
+                     * 1. Skip s[i]
+                     *    -> dp[j]
+                     *
+                     * 2. Take s[i]
+                     *    -> dp[j + 1]
+                     *
+                     * Therefore:
+                     *
+                     * dp[j] = dp[j] + dp[j + 1]
+                     */
+                    dp[j] = dp[j] + dp[j + 1];
                 }
             }
         }
 
-        return dp[0][0];
+        return dp[0];
     }
 }
