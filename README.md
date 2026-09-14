@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0013-roman-to-integer) |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
 | [1872-stone-game-viii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1927-sum-game) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [0835-image-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0835-image-overlap) |
 | [1872-stone-game-viii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1872-stone-game-viii) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/RamenMahata/Leetcode-Solve/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [3483-unique-3-digit-even-numbers](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3483-unique-3-digit-even-numbers) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
@@ -151,5 +154,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
