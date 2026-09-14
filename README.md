@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
 | [1872-stone-game-viii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1927-sum-game) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3870-count-commas-in-range](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3875-construct-uniform-parity-array-i) |
@@ -147,4 +148,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
