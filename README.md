@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0013-roman-to-integer) |
+| [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
 | [1872-stone-game-viii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1927-sum-game) |
 | [3870-count-commas-in-range](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3870-count-commas-in-range) |
@@ -142,4 +143,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
