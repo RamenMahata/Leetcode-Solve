@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 | [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [0835-image-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0835-image-overlap) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/RamenMahata/Leetcode-Solve/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Breadth-First Search
 |  |
@@ -191,4 +193,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0509-fibonacci-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
