@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0090-subsets-ii) |
 | [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0047-permutations-ii) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/RamenMahata/Leetcode-Solve/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/RamenMahata/Leetcode-Solve/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Linked List
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0090-subsets-ii) |
