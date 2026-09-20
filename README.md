@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0013-roman-to-integer) |
+| [0022-generate-parentheses](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0344-reverse-string) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0115-distinct-subsequences) |
 | [0509-fibonacci-number](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0509-fibonacci-number) |
@@ -200,9 +202,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0040-combination-sum-ii) |
 | [0077-combinations](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0090-subsets-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
