@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0204-count-primes) |
 | [0509-fibonacci-number](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0509-fibonacci-number) |
 | [0836-rectangle-overlap](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0836-rectangle-overlap) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0115-distinct-subsequences) |
 | [0509-fibonacci-number](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0509-fibonacci-number) |
 | [0940-distinct-subsequences-ii](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0940-distinct-subsequences-ii) |
@@ -187,5 +189,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/RamenMahata/Leetcode-Solve/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
